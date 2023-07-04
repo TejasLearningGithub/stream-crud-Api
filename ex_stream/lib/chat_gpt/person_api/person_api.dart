@@ -56,7 +56,7 @@ class PersonService {
       //     ));
       return response;
     } catch (e) {
-      log('Error In Create Data = ' + e.toString());
+      log('Error In Create Data = $e');
     }
   }
   // Future<Person> updatePerson(Person Person) async {

@@ -93,6 +93,8 @@ class PostService {
 }
 
 class PostsScreenWithStream extends StatefulWidget {
+  const PostsScreenWithStream({super.key});
+
   @override
   _PostsScreenWithStreamState createState() => _PostsScreenWithStreamState();
 }
